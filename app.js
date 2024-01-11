@@ -61,7 +61,7 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    "mongodb+srv://vishwaams03:Vishwaa09@cluster0.tfxzuka.mongodb.net/Tweety-REST-API"
+    "xyz"
   )
   .then((result) => {
     app.listen(8080);
